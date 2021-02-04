@@ -1,6 +1,6 @@
 # I/O HW2
 
-#### ex_a.c uses write() and ex_b.c uses fwrite()
+### ex_a.c uses write() and ex_b.c uses fwrite()
 
 * Snapshot of Exercise 1 and Explain your results.  
 ![](https://i.imgur.com/LfuPu7M.png)  
