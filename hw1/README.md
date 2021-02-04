@@ -23,8 +23,9 @@
 *1. Compare and explain your results of Sequential Read, Sequential Write and (O_DIRECT) Sequential Write.*  
 
 * execution time: Sequential Read > (O_DIRECT) Sequential Write > Sequential Write  
-It takes longer to do Sequential Read since we need to get the data from disk if it is not cache. 
-Sequential Write do **write back** while (O_DIRECT)Sequential Write do **write through**  
+
+It takes longer to do Sequential Read since we need to get the data from disk if it is not cache.  
+Sequential Write do ***write back*** while (O_DIRECT)Sequential Write do ***write through***  
 
 *2. Compare and explain your results of Random Read, Random Write and (O_DIRECT) Random Write.*  
 
@@ -32,6 +33,8 @@ Sequential Write do **write back** while (O_DIRECT)Sequential Write do **write t
 
 It takes longer to do Random Read than write since we need to get the data from disk if it is not cache.  
 For (O_DIRECT) Random Write, it takes more seek time and rotational latency. So it takes longer than Random Write.  
+
+
 
 
 
